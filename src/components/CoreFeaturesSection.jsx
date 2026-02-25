@@ -58,7 +58,7 @@ export function CoreFeaturesSection() {
         </div>
 
         {/* Stats Bar */}
-        <div className="mt-16 bg-gradient-to-r from-blue-600 to-blue-800 rounded-2xl p-8 text-white">
+        {/*<div className="mt-16 bg-gradient-to-r from-blue-600 to-blue-800 rounded-2xl p-8 text-white">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
               <div className="text-3xl font-bold text-orange-300 mb-2">95%</div>
@@ -77,7 +77,7 @@ export function CoreFeaturesSection() {
               <div className="text-blue-100">Lives Safeguarded</div>
             </div>
           </div>
-        </div>
+        </div>*/}
       </div>
     </section>
   );

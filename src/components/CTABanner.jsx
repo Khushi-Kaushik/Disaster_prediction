@@ -68,9 +68,9 @@ export function CTABanner() {
             <ArrowRight className="ml-2 w-6 h-6 group-hover:translate-x-1 transition-transform duration-300" />
           </Button>
           
-          <div className="text-sm text-orange-200">
+          {/*<div className="text-sm text-orange-200">
             Join 50M+ people already protected by DisasterShield
-          </div>
+          </div>*/}
         </div>
 
         {/* Emergency Contact Info */}

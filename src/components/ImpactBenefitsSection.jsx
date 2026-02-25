@@ -80,7 +80,7 @@ export function ImpactBenefitsSection() {
         </div>
 
         {/* Key Metrics */}
-        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        {/*<div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div className="space-y-2">
             <div className="text-4xl font-bold text-orange-400">95%</div>
             <div className="text-gray-400">Prediction Accuracy</div>
@@ -97,7 +97,7 @@ export function ImpactBenefitsSection() {
             <div className="text-4xl font-bold text-red-400">24/7</div>
             <div className="text-gray-400">Active Monitoring</div>
           </div>
-        </div>
+        </div>*/}
 
         {/* Call to Action */}
         <div className="mt-16 text-center">

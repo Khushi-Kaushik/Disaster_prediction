@@ -32,7 +32,7 @@ export function AlarmingSystemSection() {
           {/* Content */}
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Alarming System <span className="text-red-600">Spotlight</span>
+              Alarming System <span className="text-red-600"></span>
             </h2>
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
@@ -55,13 +55,13 @@ export function AlarmingSystemSection() {
             </div>
 
             {/* Dynamic Threshold Highlight */}
-            <div className="bg-gradient-to-r from-orange-500 to-red-600 p-6 rounded-xl text-white">
+            {/*<div className="bg-gradient-to-r from-orange-500 to-red-600 p-6 rounded-xl text-white">
               <h3 className="text-xl font-semibold mb-3">Dynamic Threshold Adjustment</h3>
               <p className="text-orange-100">
                 Alert intensity automatically scales with severity levels. Minor risks trigger targeted notifications, 
                 while major threats activate all available warning systems simultaneously.
               </p>
-            </div>
+            </div>*/}
           </div>
 
           {/* Visual */}
@@ -81,7 +81,7 @@ export function AlarmingSystemSection() {
                 <div className="w-3 h-3 bg-yellow-400 rounded-full animate-ping"></div>
                 <span className="font-semibold">SEVERE ALERT</span>
               </div>
-              <div className="text-sm mt-1">Flash Flood Warning</div>
+              <div className="text-sm mt-1">Earthquake Warning</div>
             </div>
 
             <div className="absolute -bottom-4 -left-4 bg-orange-600 text-white p-3 rounded-lg shadow-lg">

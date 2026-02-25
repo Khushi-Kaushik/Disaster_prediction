@@ -45,44 +45,45 @@ export function HowItWorksSection() {
         </div>
 
         <div className="relative">
-          {/* Connection Lines */}
-          <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-blue-200 via-orange-200 to-red-200 transform -translate-y-1/2"></div>
+  {/* Connection Lines */}
+  <div className="hidden lg:block absolute top-[95px] left-0 right-0 h-0.5 bg-gradient-to-r from-blue-200 via-orange-200 to-red-200"></div>
+  
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 items-stretch relative">
+    {steps.map((step, index) => (
+      <div key={index} className="relative flex">
+        {/* Step Card */}
+        <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 group relative z-10 flex flex-col h-full w-full">
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative">
-            {steps.map((step, index) => (
-              <div key={index} className="relative">
-                {/* Step Card */}
-                <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 group relative z-10">
-                  {/* Step Number */}
-                  <div className="absolute -top-4 left-6 bg-gradient-to-r from-blue-600 to-blue-800 text-white text-sm font-bold px-3 py-1 rounded-full">
-                    {step.number}
-                  </div>
+          {/* Step Number */}
+          <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-blue-600 to-blue-800 text-white text-sm font-bold px-3 py-1 rounded-full">
+            {step.number}
+          </div>
+          
+          {/* Icon */}
+          <div className="flex justify-center mb-6 mt-4">
+            <div className="p-4 bg-gray-50 rounded-full group-hover:bg-blue-50 transition-colors duration-300">
+              {step.icon}
+            </div>
+          </div>
+          
+          {/* Content */}
+          <h3 className="text-xl font-semibold text-gray-900 mb-4 text-center">
+            {step.title}
+          </h3>
                   
-                  {/* Icon */}
-                  <div className="flex justify-center mb-6">
-                    <div className="p-4 bg-gray-50 rounded-full group-hover:bg-blue-50 transition-colors duration-300">
-                      {step.icon}
-                    </div>
-                  </div>
-                  
-                  {/* Content */}
-                  <h3 className="text-xl font-semibold text-gray-900 mb-4 text-center">
-                    {step.title}
-                  </h3>
-                  
-                  <p className="text-gray-600 mb-6 leading-relaxed">
+                 {/* <p className="text-gray-600 mb-6 leading-relaxed">
                     {step.description}
-                  </p>
+                  </p>*/}
                   
                   {/* Details */}
-                  <ul className="space-y-2">
+                  {/*<ul className="space-y-2">
                     {step.details.map((detail, detailIndex) => (
                       <li key={detailIndex} className="flex items-center text-sm text-gray-500">
                         <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2"></div>
                         {detail}
                       </li>
                     ))}
-                  </ul>
+                  </ul>*/}
                 </div>
 
                 {/* Arrow for mobile */}
