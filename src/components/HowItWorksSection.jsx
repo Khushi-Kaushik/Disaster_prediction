@@ -40,7 +40,7 @@ export function HowItWorksSection() {
             How DisasterShield Works
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            From data collection to life-saving alerts â€” our comprehensive system operates seamlessly to protect communities
+            From data collection to life-saving alerts,our comprehensive system operates seamlessly to protect communities
           </p>
         </div>
 
